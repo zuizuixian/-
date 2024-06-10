@@ -20,6 +20,7 @@ socket sample,查询对应计数的代码样本<br>
 ## Branch 分支
 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为master/main<br>
 不仅可以管理代码存储，便于多人协作开发<br>
+![笔记图片1](C://Users//dream//Desktop//Linux//1.png)
 
 # 仓库内容
 Code,资源存储,代码资源，二进制, 项目管理脚本， 许可证等等<br>
@@ -50,7 +51,15 @@ git restoe    恢复被删除的（仓库存在）<br>
 先拉取 git pul 云端内容 与本地内容合井或操作， 而后再次推即可<br>
 git pull --rebase origin master<br>
 git rebase --skip   忽略本地内容，保留云端内容<br>
-git rebase --abort  忽略本地n
+git rebase --abort  忽略云端内容，更新本地后可上传<br>
+git rebase --continue  版本合并，解决冲突后可上传<br>
+# 下载开源代码
+git clone "https仓库地址"   下载开源项目code资源<br>
+# 分支Branch
+关于分支的相关命令，创建分支、选择分支、合并分支等等<br>
+# Markdown语言
+Markdown，文本修饰语言，用特殊符号修饰正文效果
+
 
 
 
