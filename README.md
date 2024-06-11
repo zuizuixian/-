@@ -20,7 +20,7 @@ socket sample,查询对应计数的代码样本<br>
 ## Branch 分支
 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为master/main<br>
 不仅可以管理代码存储，便于多人协作开发<br>
-![笔记图片1](https://postimg.cc/zVr2QLvT)
+![笔记图片1](https://i.postimg.cc/zVr2QLvT/1.png)
 
 # 仓库内容
 Code,资源存储,代码资源，二进制, 项目管理脚本， 许可证等等<br>
