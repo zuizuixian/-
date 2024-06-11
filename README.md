@@ -32,27 +32,35 @@ LICENSE 许可证,GPL2.0，3.0.Apahce 2.0,Mit, 这些许可证， 给使用者�
 
 # 设备认证
 1、如何让网站的账户与设备绑定，后续完成代码的管理, 上传下载<br>
-git init   创建本地仓库<br>
-git config --list   查看git的配置文件<br>
-git config --global user.email"邮箱"<br>
-git congig --global user.name"用户名“<br>
-ssh.keygen -t rsa -C "注册邮箱"   创建本地密文<br>
-ssh -T git@github.com   测试关联是否成功<br>
+```c
+git init   创建本地仓库
+git config --list   查看git的配置文件
+git config --global user.email"邮箱"
+git congig --global user.name"用户名“
+ssh.keygen -t rsa -C "注册邮箱"   创建本地密文
+ssh -T git@github.com   测试关联是否成功
+```
 2、为目标仓库起别名，定位目标仓库，后续上传<br>
-git remote add orgin "ssh地址"   为ssh仓库地址起别名为origin<br>
-git remote remove origin   删除origin别名<br>
+```c
+git remote add orgin "ssh地址"   为ssh仓库地址起别名为origin
+git remote remove origin   删除origin别名
+```
 # 本地设备与云端仓库的交互逻辑
-git add       添加内容<br>
-git rm        删除本地文件并删除仓库数据<br>
-git restoe    恢复被删除的（仓库存在）<br>
+```c
+git add       添加内容
+git rm        删除本地文件并删除仓库数据
+git restoe    恢复被删除的（仓库存在）
+```
 
 # 代码更新的依赖关系被破坏
 本地内容要比云端新，完成更新替换，但是如果直接修改云端内容,导致本地内容无法再次提交<br>
 先拉取 git pul 云端内容 与本地内容合井或操作， 而后再次推即可<br>
-git pull --rebase origin master<br>
-git rebase --skip   忽略本地内容，保留云端内容<br>
-git rebase --abort  忽略云端内容，更新本地后可上传<br>
-git rebase --continue  版本合并，解决冲突后可上传<br>
+```c
+git pull --rebase origin master
+git rebase --skip   忽略本地内容，保留云端内容
+git rebase --abort  忽略云端内容，更新本地后可上传
+git rebase --continue  版本合并，解决冲突后可上传
+```
 # 下载开源代码
 git clone "https仓库地址"   下载开源项目code资源<br>
 # 分支Branch
