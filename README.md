@@ -62,11 +62,13 @@ git rebase --abort  忽略云端内容，更新本地后可上传
 git rebase --continue  版本合并，解决冲突后可上传
 ```
 # 下载开源代码
-git clone "https仓库地址"   下载开源项目code资源<br>
+```c
+git clone "https仓库地址"   下载开源项目code资源
+```
 # 分支Branch
 关于分支的相关命令，创建分支、选择分支、合并分支等等<br>
 # Markdown语言
-Markdown，文本修饰语言，用特殊符号修饰正文效果
+Markdown，文本修饰语言，用特殊符号修饰正文效果<br>
 
 
 
