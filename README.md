@@ -20,7 +20,7 @@ socket sample,查询对应计数的代码样本<br>
 ## Branch 分支
 在仓库中可以包含多个分支，分支才是代码文件的第一存储单位，默认的仓库主分支为master/main<br>
 不仅可以管理代码存储，便于多人协作开发<br>
-![笔记图片1](https://i.postimg.cc/zVr2QLvT/1.png)
+![笔记图片1](https://i.postimg.cc/m2zxtCGp/1.png)
 
 # 仓库内容
 Code,资源存储,代码资源，二进制, 项目管理脚本， 许可证等等<br>
@@ -29,7 +29,7 @@ README;使用markdown语言编写，工程自述文件，开发进度，版本�
 LICENSE 许可证,GPL2.0，3.0.Apahce 2.0,Mit, 这些许可证， 给使用者最大使用权限以及最少的限制<br>
 # Git软件，分布式版本控制系统
 仓库管理软件，使用gi管理私人代码或企业代码<br>
-![笔记图片2](https://i.postimg.cc/jL43Ysnm/2.png)
+![笔记图片2](https://i.postimg.cc/65DkRqWW/2.png)
 # 设备认证
 1、如何让网站的账户与设备绑定，后续完成代码的管理, 上传下载<br>
 ```c
@@ -51,7 +51,7 @@ git add       添加内容
 git rm        删除本地文件并删除仓库数据
 git restoe    恢复被删除的（仓库存在）
 ```
-![笔记图片3](https://i.postimg.cc/4Y4LJrzd/3.png)
+![笔记图片3](https://i.postimg.cc/0yDLCvjp/3.png)
 # 代码更新的依赖关系被破坏
 本地内容要比云端新，完成更新替换，但是如果直接修改云端内容,导致本地内容无法再次提交<br>
 先拉取 git pul 云端内容 与本地内容合井或操作， 而后再次推即可<br>
