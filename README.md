@@ -94,4 +94,14 @@ a{n,m} 表示最小连续出现n次，最大连续出现m次，从m到n去匹配
 | 逻辑或(需转义符\\(desc\\|tomcat\\|mysql\\)<br>
 
 
-
+#函数使用正则
+```c
+#include <regex.h>
+regex_t reg; 正则类型   先用字符串正则语句生成正则类型，后续使用正则类型匹配数据
+regcomp(&reg,"正则表达式语句",0);  //使用正则字符串生成正则类型
+regfree(&reg);  //释放正则类型内存
+regxec(&reg,char* data,int regnum,regmatch_t match,0);  //使用此函数匹配结果，调用一次匹配一条结果，成功返回0，失败返回REG_NONE.
+```
+regnum:正则数量<br>
+match:位置数组<br>
+![笔记图片4](https://i.postimg.cc/Sxx0RmTZ/2024-06-14-122516.png）
