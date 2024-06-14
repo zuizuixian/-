@@ -104,4 +104,4 @@ regxec(&reg,char* data,int regnum,regmatch_t match,0);  //使用此函数匹配�
 ```
 regnum:正则数量<br>
 match:位置数组<br>
-![笔记图片4](https://i.postimg.cc/Sxx0RmTZ/2024-06-14-122516.png）
+![笔记图片4](https://i.postimg.cc/Sxx0RmTZ/2024-06-14-122516.png)
